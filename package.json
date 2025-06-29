@@ -9,13 +9,15 @@
     "typecheck": "react-router typegen && tsc --build --noEmit"
   },
   "dependencies": {
-    "@react-router/fs-routes": "^7.6.3",
     "@react-router/node": "^7.6.3",
     "@react-router/serve": "^7.6.3",
+    "isbot": "^5",
     "npm": "^11.4.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router": "^7.6.3",
+    "remix-auth": "^4.2.0",
+    "remix-auth-form": "^3.0.0",
     "zod": "^3.25.67"
   },
   "devDependencies": {
