@@ -33,13 +33,13 @@ function SignedInState({ user }: { user: string | undefined }) {
   return (
     <div className="flex items-center gap-2">
       <Link className="link" to="/foo/bar">
-        Broken
+        Foo Bar
+      </Link>
+      <Link className="link" to={href('/with-error')}>
+        Page with error
       </Link>
 
-      <button
-        className="btn btn-ghost"
-        onClick={() => setCount(count + 1)}
-      >
+      <button className="btn btn-ghost" onClick={() => setCount(count + 1)}>
         Count: {count}
       </button>
       {user ? (
